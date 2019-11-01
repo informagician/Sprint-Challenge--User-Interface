@@ -279,3 +279,8 @@ input[type=submit] {
     padding: 8px 24px;
     font-size: 16px;
 }
+
+/* Bottom Content */
+.contact-page .bottom-content {
+    display: block;
+}
