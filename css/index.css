@@ -144,3 +144,143 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    margin: 40px 0;
+    align-items: baseline;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Header Style */
+
+header {
+    margin: 20px 0;
+}
+
+/* Box Colors */
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+/* About Page */
+
+/* Top Content */
+.about-page .top-content {
+    display: block;
+    padding: 0 20px 20px;
+}
+
+/* Middle Content */
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: none;
+}
+.card {
+    display: block;
+    width: 370px;
+    margin: 10px 0 30px;
+    border-bottom: 1px dashed black;
+}
+.card h2 {
+    padding: 0;
+    margin: 15px 0 20px;
+}
+.card button {
+    margin: 15px 0 20px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 16px;
+}
+
+/* Bottom Content */
+.about-page .bottom-content {
+    display: block;
+}
+
+
+/* Contact Us Page */
+
+/* Top Content */
+address {
+    line-height: 1.5;
+}
+.contact-page .middle-content {
+    padding: 20px;
+}
+fieldset {
+    padding: 20px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+input[type=text] {
+    margin: 10px 0;
+    padding: 3px 5px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    color: #ccc;
+}
+input[type=date] {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+}
+input[type=submit] {
+    margin: 15px 0 20px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 24px;
+    font-size: 16px;
+}
+
+/* Bottom Content */
+.contact-page .bottom-content {
+    display: block;
+}
