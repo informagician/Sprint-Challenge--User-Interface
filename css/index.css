@@ -201,3 +201,11 @@ header {
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
+
+/* About Page */
+
+/* Top Content */
+.about-page .top-content {
+    display: block;
+    padding: 0 20px 20px;
+}
